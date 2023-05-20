@@ -8,8 +8,11 @@ public class race
     [ForeignKey("Id")]
     public Guid Id { get; set; }
 
+    [Key]
+    public Guid race_id { get; set; }
+
     [Required]
     [MaxLength(250)]
-    public string? races { get; set; }
+    public string races { get; set; }
     
 }

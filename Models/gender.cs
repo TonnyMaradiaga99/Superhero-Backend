@@ -8,9 +8,12 @@ public class gender
     [ForeignKey("Id")]
     public Guid Id { get; set; }
 
+    [Key]
+    public Guid gender_id { get; set; }
+
     [Required]
     [MaxLength(250)]
-    public string? genders { get; set; }
+    public string gender_name { get; set; }
     
 
 }

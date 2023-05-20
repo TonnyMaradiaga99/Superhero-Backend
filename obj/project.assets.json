@@ -193,10 +193,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/8.0.0-preview.4.23259.3": {
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0-preview.4.23259.3"
+          "Microsoft.EntityFrameworkCore": "7.0.5"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
@@ -1419,17 +1419,17 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.InMemory/8.0.0-preview.4.23259.3": {
-      "sha512": "tpOp0Lpgg218VDCT8BKeKR/Tq0vcxVRdJBMPDbPOj6+ZQJ0q7sbj9P3kyuggf8nx+/6UJJiDjhdKapXkj6sLnw==",
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.5": {
+      "sha512": "y3S/A/0uJX7KOhppC3xqyta6Z0PRz0qPLngH5GFu4GZ7/+Sw2u/amf7MavvR5GfZjGabGcohMpsRSahMmpF9gA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/8.0.0-preview.4.23259.3",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.8.0.0-preview.4.23259.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
@@ -3654,7 +3654,7 @@
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
-      "Microsoft.EntityFrameworkCore.InMemory >= 8.0.0-preview.4.23259.3",
+      "Microsoft.EntityFrameworkCore.InMemory >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3713,7 +3713,7 @@
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
-            "version": "[8.0.0-preview.4.23259.3, )"
+            "version": "[7.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -3746,16 +3746,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore de 8.0.0-preview.4.23259.3 a 7.0.5. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Superhero -> Microsoft.EntityFrameworkCore.InMemory 8.0.0-preview.4.23259.3 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.4.23259.3) \r\n Superhero -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

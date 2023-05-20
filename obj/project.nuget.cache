@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "qNWIFdp75B5reyHx46lFZ2ofUkGigRJiNu1TI3PUsymzzKzAYwsOVhE/YjHwUhHyjijVZmtPPFqxz7i+jmedxw==",
-  "success": false,
+  "dgSpecHash": "cBj5VI2GskDkiJUahnu42zm08wcSqOn6+raNpWqq4KhA9N7O8iIRle8MPP1X+8E4KRwnTcbRzvWe/ztHODh2/Q==",
+  "success": true,
   "projectFilePath": "C:\\Users\\antho\\Desktop\\Clases\\4 Parcial\\Progra 4\\Superhero\\Superhero.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antho\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -14,7 +14,7 @@
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
-    "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.inmemory.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.5\\microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.5\\microsoft.entityframeworkcore.sqlserver.7.0.5.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -74,15 +74,5 @@
     "C:\\Users\\antho\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore de 8.0.0-preview.4.23259.3 a 7.0.5. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Superhero -> Microsoft.EntityFrameworkCore.InMemory 8.0.0-preview.4.23259.3 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.4.23259.3) \r\n Superhero -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

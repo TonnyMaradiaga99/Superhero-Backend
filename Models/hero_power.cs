@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Superhero.Models;
 
-public class Hero_power
+public class hero_power
 {
     [ForeignKey("Id")]
     public Guid Id { get; set; }
 
-    [Required]
-    public int? power_id { get; set; }
+    [Key]
+    public Guid power_id { get; set; }
     
 }
