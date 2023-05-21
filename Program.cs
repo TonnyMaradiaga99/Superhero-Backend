@@ -1,4 +1,4 @@
-using superhero;
+using Superhero;
 
 var builder = WebApplication.CreateBuilder(args);
 

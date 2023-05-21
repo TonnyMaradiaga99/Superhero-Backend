@@ -21,7 +21,7 @@ public class SuperheroContext: DbContext
 
     public DbSet<gender> gender {get; set;}
 
-    public DbSet<alignment> alignment {get; set;}
+    public DbSet<Alignment> Alignment {get; set;}
 
     public DbSet<colour> colour {get; set;}
 
